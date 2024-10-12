@@ -1,0 +1,24 @@
+﻿using CreationalPatterns.FactoryMethod.Abstractions;
+using CreationalPatterns.FactoryMethod.Abstractions.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CreationalPatterns.FactoryMethod.Notifications
+{
+    public class SmsNotification : INotification
+    {
+        public string Message { get; set; }
+
+        public NotificationResponse Send()
+        {
+            return new NotificationResponse() 
+            { 
+                Point = "Sms",
+                Message = Message
+            };
+        }
+    }
+}
