@@ -37,6 +37,9 @@ void CreationalPatterns(MenuItem main)
                                                 {
                                                     new Builder().Factory();
                                                 }));
-    main.AddMenuItemChild(new("Прототип", action: () => { Console.WriteLine("Прототип"); }));
+    main.AddMenuItemChild(new("Прототип", action: () => 
+                                                {
+                                                    new Prototype().Factory();
+                                                }));
     main.AddMenuItemChild(new("Одиночка", action: () => { Console.WriteLine("Одиночка"); }));
 }
