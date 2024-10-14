@@ -3,7 +3,6 @@
    - [x] Абстрактная фабрика (Abstract Factory)
    - [x] Строитель (Builder)
    - [x] Прототип (Prototype)
-   - [ ] Одиночка (Singleton)
 2. Структурные
    - [ ] Адаптер (Adapter)
    - [ ] Мост (Bridge)
