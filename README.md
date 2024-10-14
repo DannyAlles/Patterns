@@ -2,7 +2,7 @@
    - [x] Фабричный метод (Factory Method)
    - [x] Абстрактная фабрика (Abstract Factory)
    - [x] Строитель (Builder)
-   - [ ] Прототип (Prototype)
+   - [x] Прототип (Prototype)
    - [ ] Одиночка (Singleton)
 2. Структурные
    - [ ] Адаптер (Adapter)
